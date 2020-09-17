@@ -1,7 +1,8 @@
 version: '3.7'
 services:
   docsy:
-    build: ./
+#     build: ./
+    image: opsttakakura/docsy:latest
     container_name: docsy
     volumes:
       - ./:/app
