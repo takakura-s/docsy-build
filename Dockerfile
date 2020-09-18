@@ -16,5 +16,6 @@ RUN npm init -y \
 &&  npm install autoprefixer \
 &&  npm install -g postcss-cli
 
-ENTRYPOINT ["sh","/app/run.sh"]
+# ENTRYPOINT ["sh","/app/run.sh"]
+ENTRYPOINT ["bash"]
 CMD ["console"]
