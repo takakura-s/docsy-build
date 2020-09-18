@@ -17,5 +17,5 @@ RUN npm init -y \
 &&  npm install -g postcss-cli
 
 # ENTRYPOINT ["sh","/app/run.sh"]
-ENTRYPOINT ["sh"]
-# CMD ["console"]
+
+CMD ["sh]
